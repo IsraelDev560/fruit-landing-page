@@ -138,8 +138,8 @@ main {
 }
 
 .carossel-container {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 1px solid var(--fontColor);
+    border-bottom: 1px solid var(--fontColor);
     max-width: 1200px;
     align-items: center;
     justify-items: center;
