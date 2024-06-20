@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
+    <title>Fruits</title>
+    <link rel="shortcut icon" href="assets/icon/abacate.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
 </head>
 <body class="light-theme">
     <header>
-        <nav>
-            <a href="#" class="logo"></a>
+        <button class="menu-toggle">&#9776;</button>
+        <nav class="navbar">
             <h1>
                 <span class="logo-text">Fruits</span>
+                <img class="icon" src="assets/icon/abacate.png" alt="">
             </h1>
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Página Inicial</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                <li>
+                    <a href="https://github.com/IsraelDev560">
+                        <img src="https://skillicons.dev/icons?i=github" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/israelsantoss">
+                        <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin">
+                    </a>
+                </li>
             </ul>
             <div class="btn-container">
                 <button class="btn">Dark</button>
@@ -26,10 +36,20 @@
         </nav>
     </header>
     <main>
+    <div class="introduction-text" id="about">
         <h1>Frutas</h1>
-        <p>Nós temos as melhores frutas para você.</p>
+        <p>Bem-vindo ao <span class="fruit-text">Fruits</span></p>
+
+        <p>Em nossa loja, somos apaixonados por trazer para você as frutas mais frescas e deliciosas, 
+        diretamente dos melhores produtores locais e internacionais. Com uma seleção cuidadosamente escolhida, 
+        garantimos qualidade e sabor em cada mordida.</p>
+
+        <p>Explore nosso paraíso de cores e sabores naturais, onde cada fruta é uma celebração da saúde e do prazer de comer bem. 
+        De mangas suculentas a morangos doces, maçãs crocantes e muito mais, oferecemos uma variedade que vai além do esperado.</p>
+    </div>
     <div class="carrossel-container">        
         <div class="carrossel">
+            <h1>Algumas De Nossas Frutas</h1>
             <div class="slideshow" id="photos-result">
             </div> 
         </div>
@@ -87,13 +107,31 @@
                 <span>R$14,99 </span>
             </div>
         </div>
+        <div class="contact-section" id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
     <footer id="rodape">
-        <nav>
+        <nav class="rodape">
             <p class="rodapep">© 2024 Fruit. Todos os direitos reservados. Desenvolvido por Israel.</p>
         </nav>
     </footer>
-</div>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
