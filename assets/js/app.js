@@ -19,16 +19,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 const photos = [
     {
-       foto: "assets/images/carossel/abacaxi-removebg-preview.png"
+       foto: "assets/images/carrossel/abacaxi-removebg-preview.png"
     },
     {
-       foto: "assets/images/carossel/banana-removebg-preview.png"
+       foto: "assets/images/carrossel/banana-removebg-preview.png"
     },
     {
-        foto: "assets/images/carossel/morango-removebg-preview.png"
+        foto: "assets/images/carrossel/morango-removebg-preview.png"
     },
     {
-        foto: "assets/images/carossel/laranja-removebg-preview.png"
+        foto: "assets/images/carrossel/laranja-removebg-preview.png"
     }
 ]
 

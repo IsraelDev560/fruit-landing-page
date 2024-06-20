@@ -137,7 +137,7 @@ main {
     color: white;
 }
 
-.carossel-container {
+.carrossel-container {
     border-top: 1px solid var(--fontColor);
     border-bottom: 1px solid var(--fontColor);
     max-width: 1200px;
@@ -146,7 +146,7 @@ main {
     margin: 0 auto;
 }
 
-.carossel {
+.carrossel {
     align-items: center;
     display: grid;
     padding: 25px;
