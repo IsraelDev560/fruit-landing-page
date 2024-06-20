@@ -71,6 +71,16 @@
     .navbar.active {
         display: flex;
     }
+    .my-socials{
+        margin-right: 15px;
+        display: flex;
+    }
+
+    .icon{
+        width: 30px;
+        float: inline-end;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 599px) {
