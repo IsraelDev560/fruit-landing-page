@@ -1,4 +1,4 @@
-# Exercicios +praTI
+# Exercicio +praTI
 
 ### Landing page basica feita por mim para o curso Desenvolvedor Junior Full-Stack do +praTI.
 
