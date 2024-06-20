@@ -17,3 +17,5 @@
 - Uma seção com conteudos.
 - Um Footer.
 
+### Deploy: https://israeldev560.github.io/fruit-landing-page/
+
