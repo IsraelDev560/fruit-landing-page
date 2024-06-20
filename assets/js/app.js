@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-
 const photos = [
     {
        foto: "assets/images/carrossel/abacaxi-removebg-preview.png"
@@ -50,3 +49,12 @@ function changePhotos(side){
    foto.src = photos[currentSlide].foto;
    photoImg.appendChild(foto);
 }
+
+window.onload = function () {
+
+    window.scrollTo({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
+};
