@@ -51,7 +51,7 @@ function changePhotos(side){
 }
 
 window.onload = function () {
-
+    changePhotos();
     window.scrollTo({
         top: 0, 
         left: 0, 
